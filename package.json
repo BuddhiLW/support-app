@@ -1,0 +1,26 @@
+{
+	"name": "caiu",
+	"scripts": {
+		"ancient": "clojure -Sdeps '{:deps {com.github.liquidz/antq {:mvn/version \"RELEASE\"}}}' -m antq.core",
+		"watch": "npx shadow-cljs watch app browser-test karma-test",
+		"release": "npx shadow-cljs release app",
+		"build-report": "npx shadow-cljs run shadow.cljs.build-report app target/build-report.html"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.14.3",
+		"@mui/material": "^5.14.3",
+		"bootstrap": "^5.3.1",
+		"bootstrap-icons": "^1.10.5",
+		"dagre": "0.8.5",
+		"highlight.js": "11.5.1",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-flow-renderer": "9.7.4",
+		"react-google-recaptcha": "^3.1.0"
+	},
+	"devDependencies": {
+		"shadow-cljs": "2.20.5"
+	}
+}

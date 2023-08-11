@@ -1,0 +1,61 @@
+#+title: Centro de Atendimento de Informação do Usuário (C.A.I.U.)
+
+* DONE [#A] Central de Atendimento e Informações ao Usuário (DESIGN)
+CLOSED: [2023-08-07 seg 10:48] DEADLINE: <2023-08-31 qui> SCHEDULED: <2023-08-01 ter>
+
+#+ATTR_HTML: :width 500px
+[[file:imgs/central-atendimento.png]]
+
+** DONE Cabeçalho
+CLOSED: [2023-08-07 seg 10:47] DEADLINE: <2023-08-08 ter> SCHEDULED: <2023-08-07 seg>
+** DONE Barra de busca
+CLOSED: [2023-08-07 seg 10:47] DEADLINE: <2023-08-11 sex> SCHEDULED: <2023-08-08 ter>
+** DONE Itens de navegação, visualmente representados
+CLOSED: [2023-08-07 seg 10:47] DEADLINE: <2023-08-17 qui> SCHEDULED: <2023-08-14 seg>
+
++ Saiba mais sobre o PPI.
++ Perguntas Frequentes.
++ Solicitação de Atendimento.
++ Aporte no PPI.
+
+#+begin_quote
+Ressaltamos que, quando o usuário *clicar* em qualquer uma das funcionalidades
+(=Saiba mais sobre o PPI, Perguntas Frequentes, Solicitação de Atendimento ou
+Aporte no PPI=), é interessante que seja aberta uma nova tela completa em formato
+e uma *nova página*.
+
+Além disso, após escolhida uma funcionalidade (p. ex. Perguntas Frequentes) e
+aberta sua respectiva página, sugerimos que haja um botão que torne possível
+retornar para a página inicial da Central de Atendimento e Informação ao
+Usuário, caso o usuário assim deseje. Além disso, é relevante também indicar
+que, quando necessário, o Time de Desenvolvimento & Testes poderá adicionar a
+verificação do “eu não sou robô” e, também, botões (p. ex. “ok”, “cancelar” e
+outros) necessários para tornar exequível as funcionalidades descritas neste
+documento.
+#+end_quote
+* TODO [#B] Transcrição para HTML/JS do Central de Atendimento e Informações ao Usuário
+DEADLINE: <2023-08-15 ter> SCHEDULED: <2023-08-08 ter>
+** TODO Vamos fazer com Angular?
+DEADLINE: <2023-08-15 ter> SCHEDULED: <2023-08-10 qui>
+* DONE [#A] Perguntas Frequentes
+DEADLINE: <2023-08-15 ter> SCHEDULED: <2023-08-08 ter>
+** DONE Barra de navegação
+DEADLINE: <2023-08-10 qui> SCHEDULED: <2023-08-08 ter>
+A barra será diferente, dependendo do tipo da página em que estamos.
+** DONE Manter um histórico-local de =tópico-subtópico=, para cada tópico
+O objetivo é saber qual tópico deve estar aberto, quando se navega para um tópico, ou para página de =Perguntas Frequentes=.
+* DONE [#A] Solicitação de atendimento
+CLOSED: [2023-08-11 sex 09:47] DEADLINE: <2023-08-11 sex> SCHEDULED: <2023-08-10 qui>
+** DONE Criar a página
+CLOSED: [2023-08-10 qui 13:36]
+** DONE Criar os campos de entrada
+CLOSED: [2023-08-10 qui 13:36]
+** DONE Concertar o layout de duas colunas
+CLOSED: [2023-08-11 sex 09:36] DEADLINE: <2023-08-10 qui> SCHEDULED: <2023-08-10 qui>
+** DONE Enviar o que foi preenchido
+CLOSED: [2023-08-11 sex 09:36]
+* TODO Alterações no =aporte no PPI=
+DEADLINE: <2023-08-14 seg> SCHEDULED: <2023-08-11 sex>
+link: [[/home/buddhilw/facti/linfo-ppi/public/boleto.html][/home/buddhilw/facti/linfo-ppi/public/boleto.html-Line 1]]
+* TODO Links para =aporte= e =saiba mais=
+DEADLINE: <2023-08-14 seg> SCHEDULED: <2023-08-11 sex>
