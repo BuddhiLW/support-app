@@ -1,0 +1,1 @@
+["^ ","~$titulo",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$caiu.componentes.titulo","~:top-ns","^7","~:arities",["^ ","~i1",["^ ","~:ret","~:vector","~:arglist-str","[texto]"]],"~:type","~:fn"],"~:filename","/home/buddhilw/PP/Clojure/support-app/src/caiu/componentes/titulo.cljs"]

@@ -14,8 +14,8 @@
  (fn [id]
    (js/console.log "id: " id)
    (case id
-     :aporte-no-ppi (set! (.-href js/location) "https://ppi.facti.com.br/boleto.html")
-     :saiba-mais (set! (.-href js/location) "https://facti.com.br/ppi-2/"))))
+     :aporte-no-ppi (set! (.-href js/location) "https://duckduckgo.com/")
+     :saiba-mais (set! (.-href js/location) "https://www.ibm.com/topics/help-desk"))))
 
 ;; log-route-changed-params (js/console.log "handler: " handler ", route-params: " route-params)
 ;; (do

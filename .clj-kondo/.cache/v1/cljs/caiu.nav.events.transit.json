@@ -1,0 +1,1 @@
+["^ ","~$endpoint",["^ ","~:row",7,"~:col",1,"~:varargs-min-arity",0,"~:name","^0","~:ns","~$caiu.nav.events","~:top-ns","^6","~:arities",["^ ","~:varargs",["^ ","~:ret","~:string","~:min-arity",0,"~:arglist-str","[& params]"]],"~:type","~:fn"],"~:filename","/home/buddhilw/PP/Clojure/support-app/src/caiu/nav/events.cljs"]

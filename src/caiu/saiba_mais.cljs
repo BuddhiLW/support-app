@@ -8,7 +8,7 @@
   []
   [:<>
    [:> ThemeProvider {:theme facti}
-    [titulo "Saiba mais"]
+    [titulo "What is a help-desk? (IBM)"]
     [:> Grid {:container true
               :display "flex"
               :class-name "mx-auto mb-5 w-75 min-vh-75 "

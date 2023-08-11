@@ -8,7 +8,7 @@
   []
   [:<>
    [:> ThemeProvider {:theme facti}
-    [titulo "Aportes no PPI"]
+    [titulo "DuckDuckGo search"]
     [:> Grid {:container true
               :display "flex"
               :class-name "mx-auto mb-5 w-75 min-vh-75 "

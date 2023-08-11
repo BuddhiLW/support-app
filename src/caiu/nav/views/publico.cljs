@@ -14,7 +14,7 @@
                     :dispatch #(rf/dispatch [:set-active-nav :caiu])
                     :fa "fa-file-text-o"}
                    {:id :saiba-mais
-                    :name "Saiba mais sobre o PPI"
+                    :name "What is a help-desk? (IBM)"
                     :href (router/path-for :saiba-mais)
                     :dispatch #(rf/dispatch [:route-changed :saiba-mais])
                     :fa "fa-file-text-o"}
@@ -29,7 +29,7 @@
                     :dispatch #(rf/dispatch [:set-active-nav :solicitacao-de-atendimento])
                     :fa "fa-comments-o"}
                    {:id :aporte-no-ppi
-                    :name "Aporte no PPI"
+                    :name "Duck Duck Go search"
                     :href (router/path-for :aporte-no-ppi) ;; (url) + boleto.html
                     :dispatch #(rf/dispatch [:route-changed :aporte-no-ppi])
                     :fa "bi-collection"}]]
