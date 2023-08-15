@@ -38,14 +38,14 @@
                                      [nav]]
                                     [rodape]]
        :procura-atendimento [:> Grid {;; Não mexer nesse estilo, ele é necessário para o funcionamento do navegador de secçoẽs.
-                                             :min-height "1em"
-                                             :class-name "position-stiky"
-                                             :my 20}
-                                    [:> Box {:min-height "10em"
-                                             :class-name "fixed-bottom"
-                                             :style {:z-index -1}}
-                                     [nav]]
-                                    [rodape]]
+                                      :min-height "1em"
+                                      :class-name "position-stiky"
+                                      :my 20}
+                             [:> Box {:min-height "10em"
+                                      :class-name "fixed-bottom"
+                                      :style {:z-index -1}}
+                              [nav]]
+                             [rodape]]
        [:> Grid {:class-name "position-stiky fixed-bottom my-5"}
         [:> Box
          [nav]]

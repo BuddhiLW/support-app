@@ -20,4 +20,4 @@
      :component "p"}
     "Sistema concebido e desenvolvido por:"
     [:br]
-    "Facti - Fundação de Apoio à Capacitação em Tecnologia da Informação"]])
+    "BLW - Buddhi Little White"]])
